@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        //applicationId "com.zhangyu.myokhttpopensource"
+        applicationId "com.shunchou.culture"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.0.0+'
+    compile 'com.google.code.gson:gson:2.5'
+    compile 'com.android.support:design:24.0.0'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.lzy.widget:imagepicker:0.3.2'
+    compile 'com.facebook.stetho:stetho:1.0.1'
+    compile 'com.facebook.stetho:stetho-okhttp:1.0.1'
+    compile project(':okgo')
+    compile project(':autolayout')
+    compile 'com.lzy.widget:ninegridview:0.2.1'
+    compile project(':library')
+    compile 'com.jude:swipebackhelper:3.1.2'
+    compile files('libs/eventbus.jar')
+    compile 'com.lzy.widget:ninegridview:0.2.0'
+    compile 'org.greenrobot:eventbus:3.0.0'
+}

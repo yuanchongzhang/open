@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_jumpsecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EventBus跳转到第二个fragment" />
+
+    <Button
+        android:id="@+id/btn_jumpThird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EventBus跳转到第仨个fragment" />
+
+    <Button
+        android:id="@+id/btn_jumpResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:text="EventBus带返回值跳转" />
+
+    <TextView
+        android:id="@+id/btn_jumptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EventBus的返回值" />
+
+</LinearLayout>

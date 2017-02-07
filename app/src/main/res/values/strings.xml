@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">MyOkhttpOpenSource</string>
+
+
+
+
+
+
+
+    <string name="main_tab_first">首页</string>
+    <string name="main_tab_two">投资理财</string>
+    <string name="main_tab_three">债权转让</string>
+    <string name="main_tab_four">我要借款</string>
+    <string name="main_tab_five">我的账户</string>
+    <!--FirstFragment-->
+
+    <!--SecondFragment-->
+    <string name="main_02_title_01">投资理财</string>
+    <string name="main_02_tab_01">投资列表</string>
+    <string name="main_02_tab_02">定期理财</string>
+    <string name="main_02_chose_01">类型</string>
+    <string name="main_02_chose_02">收益</string>
+    <string name="main_02_chose_03">期限</string>
+    <!--ThirdFragment-->
+    <!--FourthFragment-->
+    <!--FifthFragment-->
+    <!--ThirdFragment-->
+    <!--LoginActivity-->
+    <!--RegisterActivity-->
+
+    <!--AccountManagementActivity-->
+    <!--SettingsActivity-->
+    <!--PersonalSettingsActivity-->
+    <!--NewsActivity-->
+    <!--InvestmentActivity-->
+    <!--ManageFinancesActivity-->
+    <!--TiroAndExperienceActivity-->
+    <!--IoanActivity-->
+    <!--AmountApplyActivity-->
+    <!--ApplyRecordActivity-->
+    <!--PasswordManageActivity-->
+    <!--PasswordModifyActivity-->
+    <!--PasswordTransactionActivity-->
+    <!--BankcardManagementActivity-->
+    <!--CredittransferDetailActivity-->
+
+    <!--BankcardAddActivity-->
+    <!--ChoseBankActivity-->
+    <!--SafetyCertificateActivity-->
+    <!--VerifiedActivity-->
+    <!--ChangePhoneNumbersActivity-->
+    <!--VipApplyActivity-->
+    <!--InviteFriendsActivity-->
+    <!--BonusRecordActivity-->
+    <!--PromotionDetailsActivity-->
+    <!--LettersOfStationActivity-->
+    <!--WithdrawOrRechargeActivity-->
+    <!--PayActivity-->
+
+    <!--InvestmentManagementActivity-->
+    <!--ClaimsManagementActivity-->
+    <!--MoneyManagementActivity-->
+    <!--MyAssetsActivity-->
+    <!--MyAssetsHistoryActivity-->
+    <!--MyRedpacketActivity-->
+    <!--IncreasedInterestActivity-->
+    <!--MsgListActivity-->
+    <!--MsgDetailActivity-->
+    <!--pop_select_photo-->
+
+
+    <string name="easyrecycleview">easyRecycleview</string>
+</resources>

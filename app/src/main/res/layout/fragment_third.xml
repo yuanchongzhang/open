@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    android:orientation="vertical">
+<!--
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="9px"
+        android:layout_marginRight="9px"
+        android:clipToPadding="false"
+        android:tag="[0,20,0,0]{9,0,9,0}(0,0)"
+        tools:layout_marginTop="20px"></android.support.v7.widget.RecyclerView>-->
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="9px"
+            android:layout_marginRight="9px"
+            android:clipToPadding="false"
+            android:tag="[0,20,0,0]{9,0,9,0}(0,0)"
+            tools:layout_marginTop="20px"
+            />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

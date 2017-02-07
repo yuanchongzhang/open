@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_juxing"
+        android:orientation="horizontal"
+        android:tag="(0,69){0,0,0,0}">
+
+        <LinearLayout
+            android:id="@+id/ll_sp_1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:gravity="center"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/main_02_chose_01"
+                android:textColor="@color/greyText" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_action_downarrow_blue" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/divider" />
+
+        <LinearLayout
+            android:id="@+id/ll_sp_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="(27)"
+                android:text="@string/main_02_chose_02"
+                android:textColor="@color/greyText" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_action_downarrow_blue"
+                android:tag="(18,12){10,0,0,0}" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/divider" />
+
+        <LinearLayout
+            android:id="@+id/ll_sp_3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="(27)"
+                android:text="价格"
+                android:textColor="@color/greyText" />
+            <!--  android:text="@string/main_02_chose_04"-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_action_downarrow_blue"
+                android:tag="(18,12){10,0,0,0}" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/divider" />
+
+        <LinearLayout
+            android:id="@+id/ll_sp_4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:tag="(27)"
+                android:text="@string/main_02_chose_03"
+                android:textColor="@color/greyText" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_action_downarrow_blue"
+                android:tag="(18,12){10,0,0,0}" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

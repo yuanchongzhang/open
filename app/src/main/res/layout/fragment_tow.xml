@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="@color/colorMainBlue"
+        android:tag="(0,100)"
+
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:tag="(0,0,32)"
+            android:text="@string/main_02_title_01"
+            android:textColor="#ffffff"
+            tools:textSize="32px" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60px"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="20px"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:tag="(0,60){0,20,0,0}"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="190px"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:tag="(27)"
+                android:text="@string/main_02_tab_01"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="190px"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <!--   <ImageView
+                   android:layout_width="84px"
+                   android:layout_height="83px"
+                   android:src="@mipmap/ic_main_secondfragment_tab_02"
+                   android:tag="{42,23,0,0}(84,83)"
+                   tools:layout_marginLeft="42px"
+                   tools:layout_marginTop="23px" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:tag="{24,42,0,0}(0,0,32)"
+                   android:text="@string/main_02_tab_02"
+                   android:textColor="@color/colorLightBlack"
+                   android:textStyle="bold"
+                   tools:layout_marginLeft="24px"
+                   tools:layout_marginTop="42px"
+                   tools:textSize="32px" />-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:tag="(27)"
+                android:text="@string/main_02_tab_02"
+          />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#00ceaa"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:paddingTop="5dp"
+                android:text="关注"
+
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:paddingTop="5dp"
+
+                android:textSize="20sp" />
+
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:scaleType="matrix"
+
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_title"
+        android:layout_marginTop="20px"
+        android:tag="(0,0){0,20,0,0}" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+<!--
+    <com.lzy.ninegrid.NineGridView
+        android:id="@+id/nineGrid"
+        app:ngv_gridSpacing="3dp"
+        app:ngv_maxSize="9"
+        app:ngv_mode="grid"
+        app:ngv_singleImageRatio="1"
+        app:ngv_singleImageSize="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />-->
+
+    <com.lzy.ninegrid.NineGridView
+        android:id="@+id/nineGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:ngv_gridSpacing="3dp"
+        app:ngv_maxSize="9"
+        app:ngv_mode="grid"
+        app:ngv_singleImageRatio="1"
+        app:ngv_singleImageSize="250dp"/>
+    <!--<ImageView
+        android:id="@+id/img_largePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />-->
+
+
+</LinearLayout>

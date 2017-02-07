@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.zhangyu.myokhttpopensource.myokhttp.view.MarqueeView
+        android:id="@+id/marqueeView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:ellipsize="end"
+        android:maxEms="10"
+        android:maxLength="10"
+        android:paddingLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:mvAnimDuration="1000"
+        app:mvInterval="3000"
+        app:mvSingleLine="true"
+        app:mvTextColor="@color/black"
+        app:mvTextSize="14sp"
+        tools:text="弘生活APP改版了" />
+
+    <Button
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到图片轮播" />
+
+
+    <Button
+        android:id="@+id/btn_getrequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到MainActivity"
+
+        />
+
+
+    <Button
+
+        android:id="@+id/btn_gettoolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="带toolbar的baseactivity"
+
+        />
+
+
+    <Button
+
+        android:id="@+id/btn_get_autolayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到适配界面"
+
+        />
+
+    <Button
+
+        android:id="@+id/btn_get_materialdesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到适Material Design"
+
+        />
+
+
+    <Button
+
+        android:id="@+id/btn_get_jsoncallback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到仿微信动画效果"
+
+        />
+</LinearLayout>
